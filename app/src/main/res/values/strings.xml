@@ -1,0 +1,27 @@
+<!-- Add these to your existing strings.xml file -->
+<resources>
+    <!-- Existing strings -->
+    <string name="app_name">SudokuMaster</string>
+    <string name="sudoku_game">SUDOKU GAME</string>
+    <string name="undo">UNDO</string>
+    <string name="erase">ERASE</string>
+    <string name="reset">RESET</string>
+
+
+
+    <string name="time">00:00</string>
+
+
+    <string name="title_sudoku_game">SUDOKU GAME</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="rules">Rules of the Game</string>
+    <string name="rules_text">Fill the 9 × 9 grid with digits.\nEach row, column, and 3 × 3 box must contain digits 1 to 9 without repetition.</string>
+    <string name="play">Play</string>
+
+
+
+
+
+</resources>

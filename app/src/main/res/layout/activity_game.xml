@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#D3D3D3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/gameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sudoku_game"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingTop="60dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:layout_gravity="end"
+            android:padding="10dp" />
+
+        <!-- Sudoku Board Container -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:background="#000000"
+                android:padding="3dp">
+
+                <GridLayout
+                    android:id="@+id/sudokuGrid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="9"
+                    android:rowCount="9"
+                    android:useDefaultMargins="false"
+                    android:alignmentMode="alignBounds"
+                    android:background="#000000" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Control Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+
+            <Button
+                android:id="@+id/btnUndo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="3dp"
+                android:text="@string/undo"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnErase"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:text="@string/erase"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="3dp"
+                android:text="@string/reset"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- Number Pad -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/numberPadTitle"
+            android:visibility="gone" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <GridLayout
+                android:id="@+id/numberPad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:rowCount="3"
+                android:alignmentMode="alignMargins"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone" />
+
+        </HorizontalScrollView>
+
+        <!-- Extra space at bottom for scrolling -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+</ScrollView>
