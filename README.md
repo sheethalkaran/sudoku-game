@@ -35,4 +35,4 @@
 ## Clone
 
 ```bash
-git clone https://github.com/your-username/SudokuApp.git
+git clone https://github.com/sheethalkaran/SudokuApp.git
