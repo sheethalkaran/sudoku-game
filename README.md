@@ -16,11 +16,12 @@
 
 ## Screenshots
 
-*Main screen with difficulty selection:*  
-![Main Screen](screenshots/main_screen.png)
+<p align="center">
+  <img src="screenshots/main_screen.png" alt="Main Screen" width="200"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/game_screen.png" alt="Game Screen" width="200"/>
+</p>
 
-*Gameplay screen with Sudoku grid and number pad:*  
-![Game Screen](screenshots/game_screen.png)
 
 
 ## Tech Stack
