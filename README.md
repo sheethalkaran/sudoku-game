@@ -17,22 +17,20 @@
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/main_screen.png" alt="Main Screen" width="200"/>
+  <img src="screenshots/main_screen.png" alt="Main Screen" width="300"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/game_screen.png" alt="Game Screen" width="200"/>
+  <img src="screenshots/game_screen.png" alt="Game Screen" width="300"/>
 </p>
-
-
 
 ## Tech Stack
 
-- Language: Java  
-- Architecture: MVVM (Model-View-ViewModel)  
-- UI: XML Layouts, GridLayout, and custom drawables  
-- Reactive Components: LiveData and ViewModel  
-- Framework: Android SDK  
+- **Language:** Java  
+- **Architecture:** MVVM (Model-View-ViewModel)  
+- **UI:** XML Layouts, GridLayout, and custom drawables  
+- **Reactive Components:** LiveData and ViewModel  
+- **Framework:** Android SDK 
 
-## Clone
+## Clone the Repository
 
 ```bash
-git clone https://github.com/sheethalkaran/SudokuApp.git
+git clone https://github.com/sheethalkaran/sudoku-game.git
