@@ -17,9 +17,9 @@
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/main_screen.png" alt="Main Screen" height="500" width="300"/>
+  <img src="screenshots/main_screen.png" alt="Main Screen" width="300"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/game_screen.png" alt="Game Screen" height="500" width="300"/>
+  <img src="screenshots/game_screen.png" alt="Game Screen" width="300"/>
 </p>
 
 ## Tech Stack
