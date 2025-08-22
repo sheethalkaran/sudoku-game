@@ -10,16 +10,16 @@
 - Ability to erase values from selected cells  
 - Undo functionality to revert the last move  
 - Option to reset the game at any point  
-- Win dialog displayed upon successful completion  
+- Win dialog is displayed upon successful completion  
 - Input validation with error messages for invalid entries  
 - Dynamic number pad showing only valid inputs for the selected cell  
 
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/main_screen.png" alt="Main Screen" width="300"/>
+  <img src="screenshots/main_screen.png" alt="Main Screen" height="400" width="200"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/game_screen.png" alt="Game Screen" width="300"/>
+  <img src="screenshots/game_screen.png" alt="Game Screen" height="400" width="200"/>
 </p>
 
 ## Tech Stack
